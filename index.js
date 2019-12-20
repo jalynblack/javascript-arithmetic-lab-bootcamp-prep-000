@@ -24,5 +24,12 @@ function dec(n) {
 
 function makeInt(n) {
   var z = parseInt('n',10);
+  if(n === Number)
+  {
   return z;
+}
+  else();
+  {
+  return `NaN`;
+  }
 }
